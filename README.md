@@ -5,7 +5,6 @@
 ### Full-Stack Developer | IoT & AI Engineer | Fintech
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alejofernandezdipiramo)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Fernandezalejo1)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alejofdipiramo@gmail.com)
 
 </div>
@@ -27,12 +26,12 @@ I build **production-ready systems** that solve real problems:
 ## 🛠️ Tech Stack
 
 ```
+AI/ML:        RAG · Embeddings · llama.cpp · Whisper · OpenAI, Freebuff , Open Code
 Languages:    TypeScript · Python · SQL · HTML/CSS
 Backend:      NestJS · FastAPI · Node.js · Prisma · SQLAlchemy
 Frontend:     Next.js · React · Tailwind CSS · Vite
 Databases:    PostgreSQL · TimescaleDB · SQLite · Redis
 DevOps:       Docker · GitHub Actions · Railway · Vercel
-AI/ML:        RAG · Embeddings · llama.cpp · Whisper · OpenAI
 IoT:          MQTT · SHA-256 Chain · Sensor Integration
 ```
 
@@ -80,19 +79,7 @@ IoT:          MQTT · SHA-256 Chain · Sensor Integration
 
 ---
 
-## 💡 What I Bring
-
-- **Full-Stack Capability**: From database schema to pixel-perfect UI
-- **Security-First**: JWT auth, rate limiting, input validation, CORS
-- **DevOps Ready**: Docker, CI/CD, automated testing
-- **AI Integration**: RAG pipelines, embeddings, local LLM deployment
-- **IoT Expertise**: Sensor integration, real-time monitoring, data integrity
-- **Production Mindset**: Tests, documentation, deployment configs
-
----
-
 <div align="center">
 
-*"Building systems that work, scale, and get you hired."*
 
 </div>
