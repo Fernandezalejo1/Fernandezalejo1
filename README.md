@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Alejo Fernandez
 
-### Full-Stack Developer | IoT & AI Engineer | Fintech
+###  AI Enthusiast 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alejofernandezdipiramo)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alejofdipiramo@gmail.com)
