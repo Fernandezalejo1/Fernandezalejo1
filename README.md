@@ -2,7 +2,7 @@
 
 ### Hey there, I'm Alejo Fernandez
 
-**Full-Stack Developer | AI Engineer | FinTech Builder**
+**Full-Stack Developer | AI Engineer **
 
 Building production systems that solve real problems.
 
@@ -41,19 +41,6 @@ Intelligent accounts receivable reconciliation platform. Matches bank payments t
 - Official receipts + double-entry accounting entries
 - Full audit trail with rollback capability
 - **[Live App](https://conciliaya.vercel.app)**
-
----
-
-### Contabilia - Accounting SaaS for SMBs
-**NestJS | Next.js 15 | Prisma | PostgreSQL**
-
-Full accounting platform with AI-powered bank reconciliation, continuous learning from user confirmations, and multi-tenant architecture.
-
-- 12 NestJS modules (ingestion, matching, learning, dashboard)
-- AI-powered semantic similarity matching
-- JWT Auth + Multi-tenant
-- Swagger/OpenAPI docs
-- CI/CD with GitHub Actions
 
 ---
 
