@@ -1,8 +1,8 @@
 <div align="center">
 
-### Hey there, I'm Alejo Fernandez
+<h1>ðŸ‘‹ Hola, soy Alejo Fernandez</h1>
 
-**Full-Stack Developer | AI Engineer **
+**Full-Stack Developer | AI Engineer | FinTech & IoT**
 
 Building production systems that solve real problems.
 
@@ -14,72 +14,90 @@ Building production systems that solve real problems.
 
 ---
 
-## Tech Stack
+## ðŸš€ Proyectos Destacados
 
-`
-Languages:    TypeScript  |  Python  |  SQL  |  JavaScript
-Frontend:     React  |  Next.js  |  Tailwind CSS  |  Vite  |  Expo
-Backend:      NestJS  |  FastAPI  |  Node.js  |  Express
-AI/ML:        Gemini  |  RAG  |  llama.cpp  |  Whisper  |  Embeddings
-Databases:    PostgreSQL  |  TimescaleDB  |  SQLite  |  Prisma  |  SQLAlchemy
-DevOps:       Docker  |  GitHub Actions  |  Vercel  |  Railway
-IoT:          MQTT  |  SHA-256 Chain  |  Sensors  |  Real-time Alerts
-`
+### ðŸ§¾ ConciliYA â€” ConciliaciÃ³n Bancaria con IA
 
----
+**TypeScript Â· React Â· Gemini AI Â· Vercel**
 
-## Featured Projects
+Plataforma de conciliaciÃ³n de cuentas por cobrar impulsada con IA. Empareja pagos bancarios con facturas usando fuzzy matching, aliases aprendidos y Gemini AI para decodificar descripciones bancarias encriptadas.
 
-### ConciliaYA - Bank Reconciliation with AI
-**TypeScript | React | Gemini AI | Vercel**
+- Motor de fuzzy matching (Levenshtein + RUT/CI + aliases)
+- Gemini AI para anÃ¡lisis de descripciones bancarias
+- Soporte multi-moneda (UYU/USD) con tipos de cambio
+- Recibos oficiales + asientos contables de doble entrada
+- AuditorÃ­a completa con capacidad de rollback
 
-Intelligent accounts receivable reconciliation platform. Matches bank payments to invoices using fuzzy matching, learned aliases, and Gemini AI to decode cryptic bank descriptions.
+[**ðŸ”— Ver repositorio**](https://github.com/Fernandezalejo1/conciliaya) Â· [**ðŸš€ App en vivo**](https://conciliaya.vercel.app)
 
-- Fuzzy matching engine (Levenshtein + RUT/CI + aliases)
-- Gemini 3.6 Flash AI for cryptic bank description analysis
-- Multi-currency support (UYU/USD) with exchange rates
-- Official receipts + double-entry accounting entries
-- Full audit trail with rollback capability
-- **[Live App](https://conciliaya.vercel.app)**
+[![ConciliYA](https://raw.githubusercontent.com/Fernandezalejo1/conciliaya/master/assets/01-dashboard.png "ConciliYA - Dashboard")](https://github.com/Fernandezalejo1/conciliaya)
 
 ---
 
-### Carnetruck - IoT Cold-Chain Monitoring
-**FastAPI | TimescaleDB | React | Docker**
+### ðŸ¥¶ Carnetruck â€” Monitoreo IoT de Cadena de FrÃ­o
 
-IoT platform for meat export cold-chain monitoring. Real-time sensor data with immutable SHA-256 integrity chain and regulatory PDF certificates.
+**FastAPI Â· TimescaleDB Â· React Â· Docker**
 
-- Immutable SHA-256 hash chain (tamper-evident)
-- Real-time alerts (temperature, door, tamper)
-- Regulatory PDF certificates (China GACC, EU, USDA-FSIS)
-- Multi-tenant JWT auth
-- Docker Compose full stack
+Plataforma IoT para el monitoreo de la cadena de frÃ­o en exportaciÃ³n de carne. Datos de sensores en tiempo real con cadena de integridad SHA-256 inmutable y certificados PDF regulatorios.
 
----
+- Cadena de hash SHA-256 inmutable (a prueba de manipulaciÃ³n)
+- Alertas en tiempo real (temperatura, puerta, intrusiÃ³n)
+- Certificados PDF regulatorios (GACC China, UE, USDA-FSIS)
+- AutenticaciÃ³n JWT multi-tenant
+- Stack completo con Docker Compose
 
-### IronMind - 100% Local RAG Coach
-**Python | FastAPI | llama.cpp | Qwen3-14B | Vulkan**
+[**ðŸ”— Ver repositorio**](https://github.com/Fernandezalejo1/carnetruck)
 
-Fitness AI coach running 100% locally on GPU. Ingests YouTube videos, transcribes with Whisper, and responds with exact video citations.
-
-- Zero cloud dependencies
-- YouTube -> Whisper -> Embeddings -> RAG pipeline
-- Qwen3-14B on RX 9070 XT (Vulkan backend)
-- Real-time streaming with source citations
-- Vanilla JS premium UI
+[![Carnetruck](https://raw.githubusercontent.com/Fernandezalejo1/carnetruck/main/assets/screenshots/02-dashboard.png "Carnetruck - Dashboard")](https://github.com/Fernandezalejo1/carnetruck)
 
 ---
 
-## More Projects
+### ðŸ‹ï¸ IronMind â€” Coach de Fitness con RAG 100% Local
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [**Athletiq**](https://github.com/Fernandezalejo1/athletiq) | Science-based fitness companion - training, nutrition, analytics, 150+ exercises | TypeScript |
-| [**Plata**](https://github.com/Fernandezalejo1/plata) | Finanzas de la casa en pareja - PWA con notas de voz y Gemini | TypeScript |
-| [**PyMES Template**](https://github.com/Fernandezalejo1/pymes-template) | Plantilla web para PyMEs con panel admin | Next.js, Prisma, SQLite |
-| [**Project Analyzer**](https://github.com/Fernandezalejo1/project-analyzer) | AI-powered software project auditor - architecture, security, code quality | Python |
-| [**Finanz**](https://github.com/Fernandezalejo1/finanz) | Control de gastos personal - Expo app con keypad rapido y graficos | JavaScript |
-| [**Mas Seguro**](https://github.com/Fernandezalejo1/mas-seguro) | Seguros project | Python |
+**Python Â· FastAPI Â· llama.cpp Â· Qwen3-14B Â· Vulkan**
+
+Coach de fitness con IA que corre 100% local en GPU. Ingiere videos de YouTube, transcribe con Whisper y responde con citas exactas del video.
+
+- Cero dependencias cloud
+- Pipeline YouTube â†’ Whisper â†’ Embeddings â†’ RAG
+- Qwen3-14B en RX 9070 XT (backend Vulkan)
+- Streaming en tiempo real con citas de fuentes
+- UI premium en Vanilla JS
+
+[**ðŸ”— Ver repositorio**](https://github.com/Fernandezalejo1/ironmind)
+
+[![IronMind](https://raw.githubusercontent.com/Fernandezalejo1/ironmind/main/assets/screenshots/01-chat-inicial.png "IronMind - Chat")](https://github.com/Fernandezalejo1/ironmind)
+
+---
+
+### ðŸ›¡ï¸ MÃ¡s Seguro â€” NavegaciÃ³n Peatonal Segura en Montevideo
+
+**TypeScript Â· React Â· Supabase Â· Gemini**
+
+AplicaciÃ³n para navegaciÃ³n peatonal segura en Montevideo: Safety Score, comparaciÃ³n de rutas, IA predictiva y reportes ciudadanos.
+
+- Safety Score por zona
+- ComparaciÃ³n de rutas alternativas
+- IA predictiva de seguridad
+- Reportes ciudadanos colaborativos
+
+[**ðŸ”— Ver repositorio**](https://github.com/Fernandezalejo1/mas-seguro) Â· [**ðŸš€ App en vivo**](https://mas-seguro.vercel.app)
+
+[![MÃ¡s Seguro](https://raw.githubusercontent.com/Fernandezalejo1/mas-seguro/main/assets/Dashboard.png "MÃ¡s Seguro")](https://github.com/Fernandezalejo1/mas-seguro)
+
+---
+
+## ðŸ› ï¸ Tech Stack
+
+```
+Lenguajes:   TypeScript | Python | SQL | JavaScript
+Frontend:    React | Next.js | Tailwind CSS | Vite | Expo
+Backend:     NestJS | FastAPI | Node.js | Express
+AI/ML:       Gemini | RAG | llama.cpp | Whisper | Embeddings
+Bases de datos: PostgreSQL | TimescaleDB | SQLite | Prisma | SQLAlchemy | Supabase
+DevOps:      Docker | GitHub Actions | Vercel | Railway
+IoT:         MQTT | SHA-256 Chain | Sensores | Alertas en tiempo real
+```
 
 ---
 
