@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>ðŸ‘‹ Hola, soy Alejo Fernandez</h1>
+<h1>👋 Hola, soy Alejo Fernandez</h1>
 
 **Full-Stack Developer | AI Engineer | FinTech & IoT**
 
@@ -14,80 +14,98 @@ Building production systems that solve real problems.
 
 ---
 
-## ðŸš€ Proyectos Destacados
+## 🚀 Proyectos Destacados
 
-### ðŸ§¾ ConciliYA â€” ConciliaciÃ³n Bancaria con IA
+### 🧾 ConciliYA — Conciliación Bancaria con IA
 
-**TypeScript Â· React Â· Gemini AI Â· Vercel**
+**TypeScript · React · Gemini AI · Vercel**
 
-Plataforma de conciliaciÃ³n de cuentas por cobrar impulsada con IA. Empareja pagos bancarios con facturas usando fuzzy matching, aliases aprendidos y Gemini AI para decodificar descripciones bancarias encriptadas.
+Plataforma de conciliación de cuentas por cobrar impulsada con IA. Empareja pagos bancarios con facturas usando fuzzy matching, aliases aprendidos y Gemini AI para decodificar descripciones bancarias encriptadas.
 
 - Motor de fuzzy matching (Levenshtein + RUT/CI + aliases)
-- Gemini AI para anÃ¡lisis de descripciones bancarias
+- Gemini AI para análisis de descripciones bancarias
 - Soporte multi-moneda (UYU/USD) con tipos de cambio
 - Recibos oficiales + asientos contables de doble entrada
-- AuditorÃ­a completa con capacidad de rollback
+- Auditoría completa con capacidad de rollback
 
-[**ðŸ”— Ver repositorio**](https://github.com/Fernandezalejo1/conciliaya) Â· [**ðŸš€ App en vivo**](https://conciliaya.vercel.app)
+[**🔗 Ver repositorio**](https://github.com/Fernandezalejo1/conciliaya) · [**🚀 App en vivo**](https://conciliaya.vercel.app)
 
 [![ConciliYA](https://raw.githubusercontent.com/Fernandezalejo1/conciliaya/master/assets/01-dashboard.png "ConciliYA - Dashboard")](https://github.com/Fernandezalejo1/conciliaya)
 
 ---
 
-### ðŸ¥¶ Carnetruck â€” Monitoreo IoT de Cadena de FrÃ­o
+### 🥶 Carnetruck — Monitoreo IoT de Cadena de Frío
 
-**FastAPI Â· TimescaleDB Â· React Â· Docker**
+**FastAPI · TimescaleDB · React · Docker**
 
-Plataforma IoT para el monitoreo de la cadena de frÃ­o en exportaciÃ³n de carne. Datos de sensores en tiempo real con cadena de integridad SHA-256 inmutable y certificados PDF regulatorios.
+Plataforma IoT para el monitoreo de la cadena de frío en exportación de carne. Datos de sensores en tiempo real con cadena de integridad SHA-256 inmutable y certificados PDF regulatorios.
 
-- Cadena de hash SHA-256 inmutable (a prueba de manipulaciÃ³n)
-- Alertas en tiempo real (temperatura, puerta, intrusiÃ³n)
+- Cadena de hash SHA-256 inmutable (a prueba de manipulación)
+- Alertas en tiempo real (temperatura, puerta, intrusión)
 - Certificados PDF regulatorios (GACC China, UE, USDA-FSIS)
-- AutenticaciÃ³n JWT multi-tenant
+- Autenticación JWT multi-tenant
 - Stack completo con Docker Compose
 
-[**ðŸ”— Ver repositorio**](https://github.com/Fernandezalejo1/carnetruck)
+[**🔗 Ver repositorio**](https://github.com/Fernandezalejo1/carnetruck)
 
 [![Carnetruck](https://raw.githubusercontent.com/Fernandezalejo1/carnetruck/main/assets/screenshots/02-dashboard.png "Carnetruck - Dashboard")](https://github.com/Fernandezalejo1/carnetruck)
 
 ---
 
-### ðŸ‹ï¸ IronMind â€” Coach de Fitness con RAG 100% Local
+### 🏋️ IronMind — Coach de Fitness con RAG 100% Local
 
-**Python Â· FastAPI Â· llama.cpp Â· Qwen3-14B Â· Vulkan**
+**Python · FastAPI · llama.cpp · Qwen3-14B · Vulkan**
 
 Coach de fitness con IA que corre 100% local en GPU. Ingiere videos de YouTube, transcribe con Whisper y responde con citas exactas del video.
 
 - Cero dependencias cloud
-- Pipeline YouTube â†’ Whisper â†’ Embeddings â†’ RAG
+- Pipeline YouTube → Whisper → Embeddings → RAG
 - Qwen3-14B en RX 9070 XT (backend Vulkan)
 - Streaming en tiempo real con citas de fuentes
 - UI premium en Vanilla JS
 
-[**ðŸ”— Ver repositorio**](https://github.com/Fernandezalejo1/ironmind)
+[**🔗 Ver repositorio**](https://github.com/Fernandezalejo1/ironmind)
 
 [![IronMind](https://raw.githubusercontent.com/Fernandezalejo1/ironmind/main/assets/screenshots/01-chat-inicial.png "IronMind - Chat")](https://github.com/Fernandezalejo1/ironmind)
 
 ---
 
-### ðŸ›¡ï¸ MÃ¡s Seguro â€” NavegaciÃ³n Peatonal Segura en Montevideo
+### 💪 Kinetix — Entrenamiento Científico de Fuerza e Hipertrofia
 
-**TypeScript Â· React Â· Supabase Â· Gemini**
+**React · Vite · PWA · Mobile-first**
 
-AplicaciÃ³n para navegaciÃ³n peatonal segura en Montevideo: Safety Score, comparaciÃ³n de rutas, IA predictiva y reportes ciudadanos.
+App de hipertrofia y fuerza basada en evidencia científica, con analytics de volumen (MEV/MAV/MRV), calculadora de 1RM, nutrición y soporte offline. 100% local, sin APIs externas.
 
-- Safety Score por zona
-- ComparaciÃ³n de rutas alternativas
-- IA predictiva de seguridad
-- Reportes ciudadanos colaborativos
+- Programas con progresión automática y workout logger
+- Analytics de volumen (MEV, MAV, MRV) y progreso de fuerza
+- Calculadora de 1RM (Brzycki, Epley, Wathan) y de placas
+- Biomecánica con base de datos de ejercicios y anatomía
+- PWA instalable con service worker y tema oscuro AMOLED
 
-[**ðŸ”— Ver repositorio**](https://github.com/Fernandezalejo1/mas-seguro) Â· [**ðŸš€ App en vivo**](https://mas-seguro.vercel.app)
+[**🔗 Ver repositorio**](https://github.com/Fernandezalejo1/kinetix) · [**🚀 App en vivo**](https://kinetix-science-based-hypertrophy-a.vercel.app)
 
-[![MÃ¡s Seguro](https://raw.githubusercontent.com/Fernandezalejo1/mas-seguro/main/assets/Dashboard.png "MÃ¡s Seguro")](https://github.com/Fernandezalejo1/mas-seguro)
+[![Kinetix](https://raw.githubusercontent.com/Fernandezalejo1/kinetix/master/screenshots/workout-home.png "Kinetix - Inicio y Entreno")](https://github.com/Fernandezalejo1/kinetix)
 
 ---
 
-## ðŸ› ï¸ Tech Stack
+### 🛡️ Más Seguro — Navegación Peatonal Segura en Montevideo
+
+**TypeScript · React · Supabase · Gemini**
+
+Aplicación para navegación peatonal segura en Montevideo: Safety Score, comparación de rutas, IA predictiva y reportes ciudadanos.
+
+- Safety Score por zona
+- Comparación de rutas alternativas
+- IA predictiva de seguridad
+- Reportes ciudadanos colaborativos
+
+[**🔗 Ver repositorio**](https://github.com/Fernandezalejo1/mas-seguro) · [**🚀 App en vivo**](https://mas-seguro.vercel.app)
+
+[![Más Seguro](https://raw.githubusercontent.com/Fernandezalejo1/mas-seguro/main/assets/Dashboard.png "Más Seguro")](https://github.com/Fernandezalejo1/mas-seguro)
+
+---
+
+## 🛠️ Tech Stack
 
 ```
 Lenguajes:   TypeScript | Python | SQL | JavaScript
