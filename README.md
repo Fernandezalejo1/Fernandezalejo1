@@ -16,33 +16,39 @@ Vengo de operaciones IT (ITIL, ServiceNow, SLA) y automaticé con Python lo que 
 
 ## Obra seleccionada
 
-### 🤖 media-intel-agents — Plataforma multi-agente con supervisión humana
+### 🔬 [llm-lab](https://github.com/Fernandezalejo1/llm-lab) — Laboratorio de LLM local con método
+Cuatro fases medidas sobre una GPU de 16 GB: baseline, RAG híbrido, QLoRA y GRPO con recompensa
+verificable. Harness congelado entre comparaciones y resultados negativos publicados tal cual
+(el QLoRA attention-only no movió el agregado). Incluye las corridas crudas.
+`Python · Unsloth · TRL · PEFT · llama.cpp`
+
+### 🤖 [media-intel-agents](https://github.com/Fernandezalejo1/media-intel-agents) — Plataforma multi-agente con supervisión humana
 Supervisor + cuatro agentes especialistas con tool calling, quality gate, human-in-the-loop con
 aprobación y resume desde checkpoint, RAG, governance de costo/latencia y tracing estilo MLflow.
 Motor de grafos con estado escrito desde cero (sin LangGraph).
 `Python · FastAPI · 50 tests`
 
-### ❄️ carnetruck — Monitoreo IoT de cadena de frío con trazabilidad auditable
+### ❄️ [carnetruck](https://github.com/Fernandezalejo1/carnetruck) — Monitoreo IoT de cadena de frío con trazabilidad auditable
 Ingesta dual HTTP + MQTT con deduplicación idempotente, cadena de integridad SHA-256 encadenada por
 lectura, multi-tenancy con JWT y certificados PDF regulatorios con endpoint que recomputa la integridad.
 `FastAPI · TimescaleDB · React · Docker · 36 tests`
 
-### ⚡ ironmind — RAG 100 % local en GPU
+### ⚡ [ironmind](https://github.com/Fernandezalejo1/ironmind) — RAG 100 % local en GPU
 Pipeline YouTube → Whisper → embeddings → Qwen sobre el backend Vulkan de llama.cpp en una RDNA4,
 con streaming y citas exactas de video y minuto. Cero bytes a la nube.
 `Python · llama.cpp · faster-whisper · 21 tests`
 
-### 💰 contabilia — SaaS de conciliación contable
-Monorepo Turborepo con motor de 12 reglas priorizadas, cash application con pagos parciales y
-aprendizaje continuo de alias. `NestJS · Next.js · Prisma · PostgreSQL`
+### 🔍 [project-analyzer](https://github.com/Fernandezalejo1/project-analyzer) — Auditor de código con reporte ejecutivo
+Analiza arquitectura, dependencias, secretos filtrados, vulnerabilidades y performance, y entrega un
+reporte puntuado. Corrigiendo el propio analizador aparecieron tres bugs reales: falsos positivos en
+`.env.example`, CORS bloqueando el frontend y SQL por f-string no detectado.
+`Python · FastAPI · React · Docker · 28 tests`
 
-### 🧾 conciliaya — Conciliación bancaria con IA (en producción)
-Matching difuso (Levenshtein, RUT/CI, alias aprendidos) + Gemini para descifrar descripciones
-bancarias. [**Demo en vivo**](https://conciliaya.vercel.app) · `TypeScript · React`
-
-### 🏋️ kinetix — Entrenamiento basado en evidencia
+### 🏋️ [kinetix](https://github.com/Fernandezalejo1/kinetix) — Entrenamiento basado en evidencia
 Analytics de volumen (MEV/MAV/MRV), doble progresión, vault cifrado en reposo y **319 tests**.
 [**Demo en vivo**](https://kinetix-science-based-hypertrophy-a.vercel.app) · `React · Vite · PWA`
+
+<sub>También en público: [contabilia](https://github.com/Fernandezalejo1/contabilia) (SaaS de conciliación contable, 12 reglas priorizadas) y [conciliaya](https://github.com/Fernandezalejo1/conciliaya) (conciliación bancaria con Gemini, [demo en vivo](https://conciliaya.vercel.app)).</sub>
 
 ---
 
