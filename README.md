@@ -33,10 +33,14 @@ Ingesta dual HTTP + MQTT con deduplicación idempotente, cadena de integridad SH
 lectura, multi-tenancy con JWT y certificados PDF regulatorios con endpoint que recomputa la integridad.
 `FastAPI · TimescaleDB · React · Docker · 36 tests`
 
+<a href="https://github.com/Fernandezalejo1/carnetruck"><img src="https://raw.githubusercontent.com/Fernandezalejo1/carnetruck/main/assets/screenshots/02-dashboard.png" alt="Carnetruck - Dashboard" width="720"></a>
+
 ### ⚡ [ironmind](https://github.com/Fernandezalejo1/ironmind) — RAG 100 % local en GPU
 Pipeline YouTube → Whisper → embeddings → Qwen sobre el backend Vulkan de llama.cpp en una RDNA4,
 con streaming y citas exactas de video y minuto. Cero bytes a la nube.
 `Python · llama.cpp · faster-whisper · 21 tests`
+
+<a href="https://github.com/Fernandezalejo1/ironmind"><img src="https://raw.githubusercontent.com/Fernandezalejo1/ironmind/main/assets/screenshots/01-chat-inicial.png" alt="IronMind - Chat" width="720"></a>
 
 ### 🔍 [project-analyzer](https://github.com/Fernandezalejo1/project-analyzer) — Auditor de código con reporte ejecutivo
 Analiza arquitectura, dependencias, secretos filtrados, vulnerabilidades y performance, y entrega un
@@ -44,11 +48,30 @@ reporte puntuado. Corrigiendo el propio analizador aparecieron tres bugs reales:
 `.env.example`, CORS bloqueando el frontend y SQL por f-string no detectado.
 `Python · FastAPI · React · Docker · 28 tests`
 
+<a href="https://github.com/Fernandezalejo1/project-analyzer"><img src="https://raw.githubusercontent.com/Fernandezalejo1/project-analyzer/master/docs/screenshots/01-home.png" alt="project-analyzer - Inicio" width="720"></a>
+
 ### 🏋️ [kinetix](https://github.com/Fernandezalejo1/kinetix) — Entrenamiento basado en evidencia
 Analytics de volumen (MEV/MAV/MRV), doble progresión, vault cifrado en reposo y **319 tests**.
 [**Demo en vivo**](https://kinetix-science-based-hypertrophy-a.vercel.app) · `React · Vite · PWA`
 
-<sub>También en público: [contabilia](https://github.com/Fernandezalejo1/contabilia) (SaaS de conciliación contable, 12 reglas priorizadas) y [conciliaya](https://github.com/Fernandezalejo1/conciliaya) (conciliación bancaria con Gemini, [demo en vivo](https://conciliaya.vercel.app)).</sub>
+<a href="https://github.com/Fernandezalejo1/kinetix"><img src="https://raw.githubusercontent.com/Fernandezalejo1/kinetix/master/screenshots/workout-home.png" alt="Kinetix - Inicio y Entreno" width="720"></a>
+
+### 🚶 [mas-seguro](https://github.com/Fernandezalejo1/mas-seguro) — Navegación peatonal segura para Montevideo
+Safety Score por tramo, comparación de rutas y reportes de ciudadanos sobre OpenStreetMap, con IA de
+Google Gemini opcional y fallback heurístico cuando no hay API key.
+`React · Supabase · Leaflet · TypeScript`
+
+<a href="https://github.com/Fernandezalejo1/mas-seguro"><img src="https://raw.githubusercontent.com/Fernandezalejo1/mas-seguro/main/assets/Dashboard.png" alt="Más Seguro - Dashboard" width="720"></a>
+
+### 💸 [conciliaya](https://github.com/Fernandezalejo1/conciliaya) — Conciliación bancaria con motor local de reglas
+Matching difuso, alias aprendidos y un motor de reglas determinista para descripciones bancarias
+crípticas, con aplicación de pagos parciales, reversión contable y asientos balanceados.
+**Sin IA externa**: todo corre en el cliente y el cruce es reproducible.
+[**Demo en vivo**](https://conciliaya.vercel.app) · `React · TypeScript · Vite`
+
+<a href="https://github.com/Fernandezalejo1/conciliaya"><img src="https://raw.githubusercontent.com/Fernandezalejo1/conciliaya/master/assets/01-dashboard.png" alt="ConciliaYA - Dashboard" width="720"></a>
+
+<sub>También en público: [contabilia](https://github.com/Fernandezalejo1/contabilia) (SaaS de conciliación contable, 12 reglas priorizadas).</sub>
 
 ---
 
